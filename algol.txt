@@ -1,0 +1,236 @@
+BEGIN
+import packages;
+class decleration
+//Method to sum through array of felds
+    BEGIN
+     create Scanner object
+     instantiate feild to accept input from command
+     instantiate array of size input feild
+     input values into array
+     total = 0
+     total =  total + array elements
+     DISPALY total
+    END
+ //Method decleration to subtract through an array of feilds
+          BEGIN 
+            Create Scanner object 
+            Instatiate feild to accept input from command
+            create an array object of size input feild
+            iterate through the feilds of the array to input values
+            sort array values in increasing order
+            Iterate through array from end to start after sorting
+             subtract the values in first value from second value
+             For when the result of subtraction is "-",change to "+"
+             let the result of subtraction be multiplied by "-1"
+             DISPLAY result
+           END
+//Method declearation to mutiply thhrough the feilds of an array
+    BEGIN
+            Create Scanner object 
+            Instatiate feild to accept input from command
+            create an array object of size the input feild
+            iterate through the feilds of the array to input values
+            Insatiate multiplier field and set to "1" to return feild *multiplier feild = feild
+            Iterate through array and multiply by values by multiplying feild
+            result =result * value;
+            DISPLAY result
+           END
+    //Method to divide two operands
+     BEGIN
+            Create Scanner object
+            Declare feilds to be calculated
+           feild result = 0;
+            Instatiate feilds to accept input from command
+            Check if first feild is greater than the second feild and let the result be equals greater feild/lesser feild
+            DISPLAY result
+        END
+    //Method to calculate the gcd of Integers
+    BEGIN
+           declare feilds
+           create Scanner object
+           instantiate feilds to accept input from command
+           iterate through the feilds with a counter feild which is less or equal each of the feilds
+            check if feilds divided by counter feild has no remainder
+                   
+            instantiate feild(gcd) to be equal to the counter varaible where the two feilds csn longer be divided with no remainder
+            instantiate result feild to be equal the product of feilds divide by feild(gcd)
+            DISPLAY result
+        END
+    //Method to check the cuberoot of an operand
+       BEGIN
+            Create Scanner object
+            decleare feild and instatiate to accept input from command
+            declare feild an invoke cbrt()of operand method in lang.Math as its value to return cube root of operand
+            DISPLAY result
+          END
+    //Method to check the cuberoot of an operand
+   BEGIN
+            Create Scanner object
+            decleare feild and instatiate to accept input from command
+            declare feild an invoke sqrt()of operand methhod in lang.Math as its value to return the square root of operand
+            DISPLAY result
+     END
+    //Method to check the raise to power the number given of an operand 
+   BEGIN 
+            Create Scanner object
+            decleare feild and instatiate to accept input from command
+            declare result feild an invoke pow()methhod in lang.Math as its value to return the power of operand
+            DISPLAY result
+    END
+    //Method to check sin of an operand
+    BEGIN
+            Create Scanner object
+            declearing feild an instatiate to accept input from command
+            decleare result feild and invoke sin()method in lang.Math to return the sin of operand
+            DISPLAY result
+      END
+    //method decleration to return the arche sin of operand
+     BEGIN
+            create Scanner object
+            declear feild and instantiate to accept input from command
+            declare  reult sfeild and invoke asin() method as its value to return the arche sin of operand
+            DISPLAY result
+     END
+    //method decleration to return the arche sin of operand
+     BEGIN
+            create Scanner object
+            declear feild and instantiate to accept input from command
+            declare result feild and invoke cos() method as its value to return the arche cos of operand
+            DISPLAY result
+       END
+    //method decleration to return the arche sin of operand
+      BEGIN
+            create Scanner object
+            declear feild and instantiate to accept input from command
+            declare result feild and invoke acos() method as its value to return the arche cos of operand
+            DISPLAY result
+      END
+    //method decleration to return the exponential of operand
+      BEGIN
+            create Scanner object
+            declear feild and instantiate to accept input from command
+            declare result feild and invoke exp() method as its value to return the exponential of operand
+            DISPLAY result
+       END
+    //method decleration to return the log in base 10 of operand
+     BEGIN
+            Create Scanner object
+            declare feild to accept input from command
+            declare result feild and invoke log10() method from lang.Math to return the log of operand in base 10
+           DISPLAY result
+     END
+    //method decleration to round off an operand
+     BEGIN
+            Create Scanner object
+            declare feild to accept input from command
+            declare result feild and invoke round() method from lang.Math to round off a double/float value of operand to the nearest int value
+            DISPLAY result
+      END
+    //method decleration to return the gretest int less or equal to operand
+     BEGIN
+            Create Scanner object
+            declare feild to accept input from command
+            declare result feild and invoke ceil() method from lang.Math to return the gretest int less or equal to operand
+            DISPLAY result
+     END
+    //Method to check if operand is prime
+     BEGIN
+            Declare feilds
+            Create Scanner object
+            Instantiate feild to accept input from command
+            instatiate feild  to be equal half of  the input feild
+            Check if input feild is equal 0 or 1
+             DISPLAY result if the condition is true
+              otherwise,iterate through the input feild till divider feild is less or equal to half of operand
+               when operand * divider variable divide by 100 is equal 0
+               DISPLAY result
+               instantiate feild to be equal to 1 if condition is true
+
+            check for when condition  is false
+             DISPLAY result
+         END
+    //Method to check the highest common factor
+   BEGIN
+            declare feids
+            create scanner object
+            instantiate feid to accept input from command
+            iterate through the feilds with a counter varaible starting from 1
+             check if feids divided by counter feild has no remainder
+                   instantiate result feild to be equal to the counter varaible input feilds can no longer be divided with no remainder
+                DISPLAY result
+     END    
+    //Method to check if operand is palindrome
+     BEGIN
+            declear feilds
+            create Scanner object
+            instantiate feild to accept input from command
+            instantiate feild holder to hold value of feild
+            store reversed integer in a feild
+            instantiate result ffeild to be equal input feild%10;
+            instantiate number feild which has initial value of 0 to be equal initial value of feild*10 + result feild
+            instatantiate input feild to be equal to input feild/10
+           check if input feild and reverse integer are equal  
+            declare and instantiate divider feild to be 1/2 of new value of input feild
+            check if input feild is 0 or 1
+            DISPALY result when condition is true
+             when codition is not true,iterate and divide input feild by divider feild till operand becomes indivisible
+                   check if the result of the input feild * divider feild divide by 100 is equal 0
+                      DISPALY result when condition is true
+                  instantiate feild which initial  to be equals 1 if condition is true
+                   Stop iteration if condtion is met
+               check if feild is equal 0
+                   DISPLAY result when condition is true
+            when condition is not met,check if operand is equal 0 or 1
+                DISPLAY result when condition is true
+             if condition is not true
+               instantiate feild to be equal to the input feild/2
+               iterate through the feild with a counter feild starting with 2
+               check when input feild% counter feild is equal 0
+               instantiate feild which initial  to be equals 1 if condition is true
+               stop iteration when conditon is true
+              check when feild is equal 0
+               DISPLAY result
+        END
+    //Method decleration to to return the average of an array of feilds
+        BEGIN
+            feild decleration
+            create Scanner object
+            instantiate feild to accept input from command
+           create an array of size input feild
+            iterare through array to input values to its feilds
+                instantiate array feilds to accept input from command
+                Sum through the values of the array
+            instantiate result feild to be equals the result of the sum of the array over the size of the array
+            DISPLAY result
+        END
+    //Method to check the maximum value in an array of feilds
+        BEGIN
+            create Scanner object
+            instantiate feild to accept input from command
+            create an array of size input feild
+            iterate through the feilds of array to input values
+            sort array in descending order
+            DISPLAY result
+       END
+    //Method decleration to check the minimum value in an array of feilds 
+       BEGIN
+            create scanner object
+            declare and instantiate feild to accept input from command
+            create an array of size number
+             iterate through the feilds of array to input values
+             sort array in descending order
+             DISPLAY first value of array after sorting
+          END
+    //Method to calculate percentge of operands
+         BEGIN
+            declare feilds
+            create scanner object
+            instantiate feilds to accept input from command
+            instantiate result feild to be equal first input feild multiply by 100 divided by second input feild
+            DISPLAY result
+        END
+    create scanner object
+    instantiate feild to accept input from command
+    condition to check when the input feild is equal to the string assigned to operation
+    perform operation
+ END
